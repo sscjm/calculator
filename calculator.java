@@ -295,6 +295,6 @@ public class mycalculator extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new mycalculotor();
+		new mycalculator();
 	}
 }
