@@ -10,7 +10,7 @@ public class mycalculator extends JFrame {
 	String math = "";
 	double num = 0;
 	String tostring = "";
-	public MyCalc() {
+	public mycalculator() {
 		setTitle("윈도우 계산기");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -35,11 +35,11 @@ public class mycalculator extends JFrame {
 			info = new JLabel("");
 			label = new JLabel("0");
 			
-			info.setFont(new Font("맑은 고딕", 0, 40));
+			info.setFont(new Font("굴림체", 0, 40));
 			info.setForeground(Color.BLACK);
 			info.setHorizontalAlignment(SwingConstants.RIGHT);
 			
-			label.setFont(new Font("맑은 고딕", Font.BOLD , 55));
+			label.setFont(new Font("굴림체", Font.BOLD , 55));
 			label.setForeground(Color.BLACK);
 			label.setHorizontalAlignment(SwingConstants.RIGHT);
 			
@@ -81,7 +81,7 @@ public class mycalculator extends JFrame {
 			
 			for(int i = 0; i <= 19; i++) {
 				bt[i].setPreferredSize(new Dimension(0, 65));
-				bt[i].setFont(new Font("맑은 고딕", 0, 20));
+				bt[i].setFont(new Font("굴림체", 0, 20));
 				bt[i].setForeground(Color.BLACK);
 				bt[i].setBackground(new Color(240, 240, 240));
 				if(3 < i && i < 15 && i % 4 != 3) {
