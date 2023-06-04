@@ -56,7 +56,7 @@ public class mycalculator extends JFrame {
 			
 			bt[0] = new JButton("×");
 			bt[1] = new JButton("÷");
-			bt[2] = new JButton("AC");
+			bt[2] = new JButton("CE");
 			bt[3] = new JButton("C");
 
 			bt[4] = new JButton("7");
